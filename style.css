@@ -1,1 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', 'Segoe UI', Arial, sans-serif; 
+}
 
+body {
+    background-color: #fff9f9; 
+    color: #4a4a4a;
+}
+
+/*BARRA DE NAVEGACIÓN (NAVBAR)*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #fff;
+    border-bottom: 2px solid #ffe4e6; 
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #db2777;
+}
+
+.logo span {
+    color: #f472b6; 
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #6b7280;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #db2777;
+}
+
+/*SECCIÓN 1: MAIN SLIDER / HERO*/
+.hero-slider {
+    background: linear-gradient(135deg, #fce7f3 0%, #fae8ff 100%); 
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 3px dashed #f472b6;
+}
+
+.slider-content h1 {
+    font-size: 36px;
+    color: #4c1d95; 
+    margin-bottom: 20px;
+}
+
+.slider-content p {
+    font-size: 16px;
+    max-width: 650px;
+    margin: 0 auto 30px auto;
+    color: #6b21a8;
+    line-height: 1.6;
+}
+
+
+.btn-principal {
+    display: inline-block;
+    background-color: #db2777;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px; 
+    margin: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(219, 39, 119, 0.2);
+    transition: transform 0.2s;
+}
+
+.btn-principal:hover {
+    transform: scale(1.05); 
+}
+
+.btn-blanco {
+    display: inline-block;
+    background-color: white;
+    color: #db2777;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 5px;
+    font-weight: bold;
+    border: 2px solid #fbcfe8;
+    transition: transform 0.2s;
+}
+
+.btn-blanco:hover {
+    transform: scale(1.05);
+}
+
+/* SECCIÓN 2: NUESTROS SERVICIOS (jade) */
+.services-section {
+    padding: 60px 8%;
+    background-color: white;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    font-size: 28px;
+    color: #db2777;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #8b5cf6; 
+    font-size: 15px;
+}
+
+/* Distribución de las 3 tarjetas */
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1;
+    min-width: 260px;
+    max-width: 340px;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 20px; 
+    text-align: center;
+    border: 2px solid #fce7f3;
+    box-shadow: 0 5px 15px rgba(244, 114, 182, 0.05);
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    border-color: #f472b6;
+}
+
+
+.emoji-circle {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px auto;
+    font-size: 30px;
+}
+
+.color-1 { background-color: #fce7f3; }
+.color-2 { background-color: #e0f2fe; } 
+.color-3 { background-color: #f3e8ff; } 
+
+.service-card h3 {
+    font-size: 18px;
+    color: #4c1d95;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.5;
+}
+
+/*BLOQUES EN ESPERA PARA Ingrid y Argentina */
+.bloque-falso-aesthetic {
+    padding: 30px 8%;
+    background-color: #faf5ff; 
+    border-top: 2px dashed #e9d5ff;
+}
+
+.caja-espera-girly {
+    border: 2px dashed #c084fc;
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    color: #7c3aed;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.caja-espera-girly h3 {
+    font-size: 16px;
+    color: #6b21a8;
+    margin-bottom: 5px;
+}
+
+/* FOOTER */
+.footer-girly {
+    background-color: #fce7f3;
+    color: #db2777;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 2px dashed #f472b6;
+}
