@@ -210,7 +210,7 @@ body {
     text-align: center;
 }
 
-.icon-girly {
+.icon {
     font-size: 35px;
     margin-bottom: 15px;
 }
@@ -227,32 +227,107 @@ body {
     line-height: 1.6;
 }
 
-
-/*BLOQUES EN ESPERA PARA Ingrid y Argentina */
-.bloque-falso-aesthetic {
-    padding: 30px 8%;
-    background-color: #faf5ff; 
-    border-top: 2px dashed #e9d5ff;
-}
-
-.caja-espera-girly {
-    border: 2px dashed #c084fc;
+ /*   RAMA: ing/equipo-y-contacto */
+/* Sección Equipo */
+.equipo-section {
+    padding: 60px 8%;
     background-color: white;
-    padding: 25px;
-    text-align: center;
-    color: #7c3aed;
-    border-radius: 15px;
-    font-size: 14px;
 }
-
-.caja-espera-girly h3 {
-    font-size: 16px;
-    color: #6b21a8;
+ 
+.equipo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+ 
+.team-card {
+    background-color: #fff9f9;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid #ffe4e6;
+    text-align: center;
+    width: 200px;
+}
+ 
+.avatar {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+ 
+.team-card h3 {
+    color: #db2777;
+    font-size: 18px;
     margin-bottom: 5px;
 }
-
-/* FOOTER */
-.footer-girly {
+ 
+.puesto {
+    font-size: 13px;
+    color: #9ca3af;
+}
+ 
+/* Sección Contacto y Formulario */
+.contacto-section {
+    padding: 60px 8%;
+    background: linear-gradient(135deg, #fae8ff 0%, #fce7f3 100%);
+    display: flex;
+    justify-content: center;
+}
+ 
+.contacto-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(219, 39, 119, 0.08);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+ 
+.contacto-card h3 {
+    color: #4c1d95;
+    margin-bottom: 10px;
+}
+ 
+.contacto-card p {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 25px;
+}
+ 
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+ 
+.formulario-contacto input, .formulario-contacto textarea {
+    padding: 12px 15px;
+    border: 2px solid #fbcfe8;
+    border-radius: 12px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+ 
+.formulario-contacto input:focus, .formulario-contacto textarea:focus {
+    border-color: #db2777;
+}
+ 
+.btn-formulario {
+    background-color: #db2777;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(219, 39, 119, 0.2);
+}
+ 
+/* Footer */
+.footer {
     background-color: #fce7f3;
     color: #db2777;
     text-align: center;
