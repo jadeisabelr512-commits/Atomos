@@ -184,6 +184,50 @@ body {
     line-height: 1.5;
 }
 
+/* RAMA: arg/menu-y-mision */
+.mision-section {
+    padding: 60px 8%;
+    background-color: #faf5ff;
+    border-top: 2px dashed #e9d5ff;
+}
+
+.mision-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.mision-box {
+    flex: 1;
+    min-width: 280px;
+    max-width: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #e9d5ff;
+    box-shadow: 0 5px 15px rgba(124, 58, 237, 0.05);
+    text-align: center;
+}
+
+.icon-girly {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.mision-box h3 {
+    font-size: 20px;
+    color: #6b21a8;
+    margin-bottom: 12px;
+}
+
+.mision-box p {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+
 /*BLOQUES EN ESPERA PARA Ingrid y Argentina */
 .bloque-falso-aesthetic {
     padding: 30px 8%;
